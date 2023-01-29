@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.chatbox{
+    position: relative;
+    left: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 600px;
+    width: 500px;
+}
+.header{
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#messageus{
+    position: relative;
+    right: 90px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: 1px solid red; */
+}
+#close{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    position: relative;
+    left: 90px;
+}
+.footer{
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+input{
+    /* position: relative;
+    left: 100px; */
+    padding: 10px;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 30px;
+}
+input::placeholder{
+    position: relative;
+    /* left: 10px; */
+    font-weight: bolder;
+}
+button{
+    left: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+button:hover{
+    
+    background-color: rgb(209, 205, 205);
+}
+.body{
+    border: 1px solid black;
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 500px;
+    overflow: scroll;
+}
+.receiver{
+    padding: 8px 2px;
+    position: relative;
+    /* bottom: 35px; */
+    margin: 10px;
+    /* border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px; */
+    border: 1px solid black;
+    width: 270px;
+    /* height: 50px; */
+}
+.sender{
+    padding: 8px 2px;
+    position: relative;
+    /* top: 10px; */
+    left: 270px;
+    margin: 10px;
+    /* border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px; */
+    border: 1px solid black;
+    width: 200px;
+    /* height: 50px; */
+}
